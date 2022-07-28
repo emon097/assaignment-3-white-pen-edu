@@ -275,23 +275,42 @@
       <!-- registration-button-section-start -->
       <section class="container">
         <div
-          class="bg-primary text-white d-flex justify-content-around pt-5 mt-5"
-          style="height: 40vh"
+          class="bg-primary d-flex justify-content-around align-items-center pt-5 mt-5" 
+          style=" height: 40vh; "
         >
-          <div class="">
+          <div class="text-white p-3 ">
             <h1>Ready to join?</h1>
             <p>
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout.
             </p>
           </div>
-          <div class="">
-            <button
-              type="button"
-              class="btn btn-white bg-white text-primary btn-lg"
-            >
-              Large button
-            </button>
+          <div class=" p-3 ">
+
+            <button type="button" class="btn bg-light text-primary btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Registar Now </button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> Registration on Your Email</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">email</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="message-text" class="col-form-label">password</label>
+                        <input type="password" class="form-control" id="message-text">
+                      </div>
+                    </form>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Registration</button>
+                    </div>
           </div>
         </div>
       </section>
