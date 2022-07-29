@@ -8,8 +8,8 @@ top:30%;}
 .size{ font-size: 7vh;  }
 .p-size{ font-size: 3vh; }
 .reg{ height: 40vh;  }
-.color {  color:rgb(55, 101, 185) ;}
-.bg-color{  background-color: rgb(55, 101, 185) ; }
+.color {  color:cornflowerblue ;}
+.bg-color{  background-color:cornflowerblue ; }
 .text-color{ color: white; }
  @media only screen and ( max-width:688px )
     {  .size { font-size: 2.4vh;  }
